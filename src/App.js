@@ -4,7 +4,6 @@ import CitySearch from "./components/CitySearch";
 import AirQualityCard from "./components/AirQualityCard";
 import PollutantInfo from "./components/PollutantInfo";
 import AirQualityLevels from "./components/AirQualityLevels.js";
-import DarkMode from "./components/DarkMode";
 import "./App.css";
 
 function App() {
@@ -36,7 +35,6 @@ function App() {
 	};
 	return (
 		<div className="container">
-			<DarkMode />
 			<h1 className="mt-5 mb-3">Air Quality Index Checker</h1>
 			<CitySearch getAirQuality={getAirQuality} />
 			{/** if error value exists, show div containing error info */}
