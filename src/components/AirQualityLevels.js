@@ -38,6 +38,25 @@ const AirQualityLevels = () => {
 		},
 	];
 
+	const getLevelColor = (level) => {
+		switch (level) {
+			case "Good":
+				return "#009966";
+			case "Moderate":
+				return "#FFDE33";
+			case "Unhealthy for Sensitive Groups":
+				return "#FF9933";
+			case "Unhealthy":
+				return "#CC0133";
+			case "Very Unhealthy":
+				return "#660099";
+			case "Hazardous":
+				return "#7E0122";
+			default:
+				return "black";
+		}
+	};
+
 	return (
 		<div className="card mb-4">
 			<div className="card-body">
@@ -54,7 +73,9 @@ const AirQualityLevels = () => {
 						{levels.map(({ range, level, implications }, index) => (
 							<tr key={index}>
 								<td>{range}</td>
-								<td>{level}</td>
+								<td style={{ color: getLevelColor(level), fontWeight: "bold" }}>
+									{level}
+								</td>
 								<td>{implications}</td>
 							</tr>
 						))}

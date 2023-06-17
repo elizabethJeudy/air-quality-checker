@@ -20,7 +20,7 @@ const CitySearch = ({ getAirQuality }) => {
 				type="text"
 				placeholder="Search city here..."
 				onChange={handleInputChange}
-				className="form-control inverse"
+				className="form-control"
 			></input>
 			<button type="submit" className="btn btn-primary mt-3">
 				Search
