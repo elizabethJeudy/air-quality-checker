@@ -15,10 +15,10 @@ function App() {
 
 	// retrieves current quality for searched city
 	const getAirQuality = async (city) => {
-		const apiKey = process.env.REACT_APP_AQI_API_TOKEN;
+		// const apiKey = process.env.REACT_APP_AQI_API_TOKEN;
 		try {
 			const response = await fetch(
-				`https://api.waqi.info/feed/${city}/?token=${apiKey}`
+				`https://api.waqi.info/feed/${city}/?token=44efa42cbaaf58ba5315da760cfa34c074871468`
 			);
 			const data = await response.json();
 			console.log(data);
