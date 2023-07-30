@@ -21,4 +21,4 @@ AQI API
 
 ##### Credit
 
-Credit is given to Claire @Mayanwolfe, where a group of developers created the application
+Credit is given to @Mayanwolfe, where a group of developers created the application
