@@ -17,13 +17,13 @@ const getCardColor = (aqi) => {
 };
 
 // forecast card displays the date, max/min, pm25(only)
-
 const ForecastCard = ({ data }) => {
+	// destructuring data
 	const { city, forecast } = data;
+	// displays aqi level color
 	const cardColor = getCardColor(data.aqi);
 
 	function ForecastDay({ data }) {
-		// const { aqi, date, time } = data;
 		return <div>{data.date}</div>;
 	}
 
