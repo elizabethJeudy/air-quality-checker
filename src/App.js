@@ -17,7 +17,7 @@ function App() {
 	const getAirQuality = async (city) => {
 		try {
 			const response = await fetch(
-				`https://api.waqi.info/feed/${city}/?token=320e8013e0ad0959bfc91c3bd38052b5989f3f72`
+				`https://api.waqi.info/feed/${city}/?token=${process.env.REACT_APP_AQI_API_TOKEN}`
 			);
 			const data = await response.json();
 			console.log(data);
@@ -41,7 +41,7 @@ function App() {
 	const getForecastData = async (city) => {
 		try {
 			const response = await fetch(
-				`https://api.waqi.info/feed/${city}/?token=320e8013e0ad0959bfc91c3bd38052b5989f3f72`
+				`https://api.waqi.info/feed/${city}/?token=${process.env.REACT_APP_AQI_API_TOKEN}`
 			);
 			const data = await response.json();
 			if (response.ok && data.status === "ok") {
