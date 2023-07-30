@@ -9,3 +9,17 @@
 .bg-hazardous {
   background-color: #7e0023;
 }
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card-container .card {
+  margin-right: 20px;
+}
+
+.card-container .card:last-child {
+  margin-right: 0;
+}

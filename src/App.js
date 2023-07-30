@@ -77,10 +77,10 @@ function App() {
 				</div>
 			)}
 			{airQualityData && (
-				<>
+				<div className="card-container">
 					<AirQualityCard data={airQualityData} />
 					<PollutantInfo pollutant={airQualityData.dominentpol} />
-				</>
+				</div>
 			)}
 			{forecastAirData && (
 				<>
