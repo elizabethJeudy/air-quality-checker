@@ -57,7 +57,7 @@ function App() {
 			}
 		} catch (error) {
 			console.error("network error:", error);
-			setForecastError("Sorry, something went wrong!!!!");
+			setForecastError("Sorry, something went wrong");
 			setForecastAirData(null);
 		}
 	};
