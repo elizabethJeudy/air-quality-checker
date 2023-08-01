@@ -15,10 +15,9 @@ function App() {
 
 	// retrieves current quality for searched city
 	const getAirQuality = async (city) => {
-		const apiKey = process.env.REACT_APP_AQI_API_TOKEN;
 		try {
 			const response = await fetch(
-				`https://api.waqi.info/feed/${city}/?token=${apiKey}`
+				`https://api.waqi.info/feed/${city}/?token=${process.env.REACT_APP_AQI_API_TOKEN}`
 			);
 			const data = await response.json();
 			console.log(data);
@@ -40,10 +39,9 @@ function App() {
 
 	// gets 7 day forecast
 	const getForecastData = async (city) => {
-		const apiKey = process.env.REACT_APP_AQI_API_TOKEN;
 		try {
 			const response = await fetch(
-				`https://api.waqi.info/feed/${city}/?token=${apiKey}`
+				`https://api.waqi.info/feed/${city}/?token=${process.env.REACT_APP_AQI_API_TOKEN}`
 			);
 			const data = await response.json();
 			if (response.ok && data.status === "ok") {
