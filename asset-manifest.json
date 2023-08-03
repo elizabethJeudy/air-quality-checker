@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/air-quality-checker/static/css/main.375fa1d8.css",
+    "main.js": "/air-quality-checker/static/js/main.fe50028b.js",
+    "index.html": "/air-quality-checker/index.html",
+    "main.375fa1d8.css.map": "/air-quality-checker/static/css/main.375fa1d8.css.map",
+    "main.fe50028b.js.map": "/air-quality-checker/static/js/main.fe50028b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.375fa1d8.css",
+    "static/js/main.fe50028b.js"
+  ]
+}
