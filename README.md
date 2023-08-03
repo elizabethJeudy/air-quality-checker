@@ -1,24 +1,43 @@
-# AQI Quality Levels Checker App
+## Air Quality Levels Checker
 
-## Description
+This is a React app that allows users to check the air quality index (AQI) in a given city location. It displays the current AQI level, dominant pollutant, and explanation. It also shows a 7-day air quality forecast.
 
-In light of the recent wildfires going on, this AQI checker was created so users can check the air quality in their nearest area.
+### Overview
 
-## What I Learned:
+- Search for a city to get current air quality data using the AQI API
+- Display the AQI level, dominant pollutant, and explanation of the pollutant
+- Color-coded chart explains the different AQI levels
+- 7-day forecast shows upcoming air quality data including min/max AQI and PM2.5 levels
 
-_.env:_ environment files allow you to store sensitive information. Here we have my specific token ID
+### Built With
 
-_async/await/promises:_ async/await makes it easier to use and understand promises. Promises represent whether an async function gets completed or fails, allowing you to handle the results with a callback. Await waits for the promise inside the async function to be rejected or completed, Using these methods, we call the city the user inputs, and fetches that response from the API.
-
-_try/catch:_ this method is used to prevent errors or crashing when something is expected to return. When the user enters a city, the data should return; if the city is not found then the user will see the error message.
-
-#### Technologies Used
-
-React.js
+React
 Node.js
-Bootstrap
 AQI API
+Bootstrap
 
-##### Credit
+### Usage
 
-Credit is given to @Mayanwolfe, where a group of developers created the application
+- Enter a city name in the search bar
+- View current air quality data including:
+  - AQI level
+  - Dominant pollutant
+  - Explanation of pollutant impact
+  - Scroll down to see 7-day forecast
+
+### Air Quality Levels Chart
+
+This chart explains the different AQI levels and their potential health impacts.
+
+[Add chart screenshot here]
+
+### App Demo
+
+[Add app demo screenshot here]
+
+Installation
+[Provide steps to clone repo, install dependencies, configure API keys, etc]
+
+### Credits
+
+Credit to @Mayanwolfe on Twitch/YouTube for demoing the AQI API and levels chart in React.
