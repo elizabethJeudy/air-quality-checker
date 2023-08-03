@@ -29,10 +29,10 @@ Bootstrap
 
 This chart explains the different AQI levels and their potential health impacts.
 
-[Add chart screenshot here]
+![App Screenshot](/assets/levels-chart.png)
 
 ### App Demo
-
+https://media3.giphy.com/media/za3aQs7l7bhKFrtO8E/giphy.gif
 [Add app demo screenshot here]
 
 Installation
