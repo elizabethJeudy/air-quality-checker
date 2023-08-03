@@ -8,12 +8,17 @@ This is a React app that allows users to check the air quality index (AQI) in a 
 - Display the AQI level, dominant pollutant, and explanation of the pollutant
 - Color-coded chart explains the different AQI levels
 - 7-day forecast shows upcoming air quality data including min/max AQI and PM25 levels (only)
+ #### App Demo
+<img src="https://media3.giphy.com/media/za3aQs7l7bhKFrtO8E/giphy.gif" width="500"/> 
 
 ### Built With
 
 React
+<br>
 Node.js
+<br>
 AQI API
+<br>
 Bootstrap
 
 ### Usage
@@ -32,8 +37,7 @@ This chart explains the different AQI levels and their potential health impacts.
 
 ![App Screenshot](/assets/levels-chart.png)
 
-### App Demo
-<img src="https://media3.giphy.com/media/za3aQs7l7bhKFrtO8E/giphy.gif" width="500"/> 
+
 
 ### Credits
 
