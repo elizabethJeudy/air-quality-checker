@@ -91,6 +91,18 @@ function App() {
 				</div>
 			)}
 			<AirQualityLevels />
+			<footer>
+				<p>
+					Open Sourced by:{" "}
+					<a
+						href="https://github.com/elizabethJeudy/air-quality-checker"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<strong>Elizabeth Jeudy</strong>
+					</a>
+				</p>
+			</footer>
 		</div>
 	);
 }
